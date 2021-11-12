@@ -3,18 +3,57 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
-  color: #212121;
+  background-color: whitesmoke;
+  color: black;
   line-height: 1.5;
 }
+body {
+  
+  width: 100%;
 
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url('../bg-image/4.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* position: absolute;
+  margin: auto;
+  padding: auto; */
+}
 #search-box {
+  
+  text-align: center;
   font: inherit;
+  font-size: 26px;
+  font-weight: bold;
+
   padding: 8px;
   max-width: 320px;
-  margin-bottom: 16px;
+  max-height: 40px;
+  margin-bottom: 26px;
+  justify-content: center;
+  align-items: center;
+  margin: 56px auto;
+  border: 1px solid rgba(143, 117, 160, 0.2);
+  border-radius: 4px;
+}
+
+.country-list {
+  font-size: 24px;
+  justify-content: center;
+  align-items: center;
+}
+.country-info {
+  font-size: 24px;
 }
